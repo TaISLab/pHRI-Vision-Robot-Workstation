@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>ros_trt_pose</name>
+  <name>keypoints_3d</name>
   <version>0.0.1</version>
   <description>A ros python package</description>
 
-  <author email="ameykulkarni@nvidia.com">nvidia</author>
-  <maintainer email="mfcarmona@uma.es">Manuel Fdez</maintainer>
+  <author email="asensioh.santiago@uma.es">asensioh</author>
+  <maintainer email="asensioh.santiago@uma.es">asensioh</maintainer>
  
   <license>GNU General Public License Version 3</license>
 
