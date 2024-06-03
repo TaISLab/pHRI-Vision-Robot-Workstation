@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>ros_trt_pose</name>
+  <version>0.0.1</version>
+  <description>A ros python package</description>
+
+  <author email="ameykulkarni@nvidia.com">nvidia</author>
+  <maintainer email="mfcarmona@uma.es">Manuel Fdez</maintainer>
+ 
+  <license>GNU General Public License Version 3</license>
+
+  <!-- Required for all packages -->
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <!-- Required for all Python packages -->
+  <depend>rospy</depend>
+  <!-- Valid keys are any Catkin packages in this workspace's src/ directory, -->
+  <!-- any installed ROS package, or any ROS-recognized system dependency -->
+  <!-- (see this link for the current list: https://github.com/ros/rosdistro/blob/master/rosdep/base.yaml)-->
+  <depend>std_msgs</depend>
+  <depend>pose_msgs</depend>
+  <depend>image_tools</depend>
+  <depend>agni_tf_tools</depend>
+
+  <export>
+  </export>
+</package>

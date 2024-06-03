@@ -1,0 +1,25 @@
+<launch>
+  <!-- ************************************************************** -->
+  <!--     ROSLAUNCH FILE    (http://wiki.ros.org/roslaunch/)         -->
+  <!--                                                                -->
+  <!--     COMMAND-LINE USAGE:                                        -->
+  <!-- roslaunch PACKAGE_NAME LAUNCHFILE.launch arg1:=val1 arg2:=val2 -->
+  <!-- ************************************************************** -->
+
+  <arg name="namespace"                       default="camera2"/>
+  <arg name="frame_detections_pub_topic_name" default="frame_detections"/>
+  <arg name="marker_pub_topic_name"           default="frame_detection_markers"/>
+
+  <group ns="$(arg namespace)">
+
+    <node pkg="ros_trt_pose" type="keypoint_plotter.py" name="keypoint_plotter" output="screen">
+      <param name="frame_detections_pub_topic_name" value="$(arg frame_detections_pub_topic_name)"/>
+      <param name="marker_pub_topic_name"           value="$(arg marker_pub_topic_name)"/>      
+    </node>
+
+  </group>
+
+</launch>
+
+
+

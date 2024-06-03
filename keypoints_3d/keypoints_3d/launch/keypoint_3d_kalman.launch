@@ -1,0 +1,12 @@
+<launch>
+  <!-- ************************************************************** -->
+  <!--     ROSLAUNCH FILE    (http://wiki.ros.org/roslaunch/)         -->
+  <!--                                                                -->
+  <!--     COMMAND-LINE USAGE:                                        -->
+  <!-- roslaunch PACKAGE_NAME LAUNCHFILE.launch arg1:=val1 arg2:=val2 -->
+  <!-- ************************************************************** -->
+  
+  <node pkg="ros_trt_pose" type="keypoint_3d_kalman.py" name="keypoint_3d_kalman" output="screen">
+  </node>
+  
+</launch>

@@ -1,0 +1,14 @@
+<launch>
+
+  <!-- ************************************************************** -->
+  <!--     ROSLAUNCH FILE    (http://wiki.ros.org/roslaunch/)         -->
+  <!--                                                                -->
+  <!--     COMMAND-LINE USAGE:                                        -->
+  <!-- roslaunch PACKAGE_NAME LAUNCHFILE.launch arg1:=val1 arg2:=val2 -->
+  <!-- ************************************************************** -->
+
+
+    <node pkg="ros_trt_pose" type="keypoint_skeleton.py" name="keypoints_skeleton_publisher" output="screen">
+    </node>
+    
+</launch>

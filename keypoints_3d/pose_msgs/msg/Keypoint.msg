@@ -1,0 +1,7 @@
+int32 id
+geometry_msgs/Point32 left_point
+float32 left_cost
+geometry_msgs/Point32 right_point
+float32 right_cost
+geometry_msgs/Point32 all_cameras_point
+float32 all_cameras_cost

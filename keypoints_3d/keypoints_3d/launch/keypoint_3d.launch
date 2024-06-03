@@ -1,0 +1,14 @@
+<launch>
+  <!-- ************************************************************** -->
+  <!--     ROSLAUNCH FILE    (http://wiki.ros.org/roslaunch/)         -->
+  <!--                                                                -->
+  <!--     COMMAND-LINE USAGE:                                        -->
+  <!-- roslaunch PACKAGE_NAME LAUNCHFILE.launch arg1:=val1 arg2:=val2 -->
+  <!-- ************************************************************** -->
+  
+  <arg name="scriptfile"                       default="keypoint_3d.py"/>
+
+  <node pkg="ros_trt_pose" type="$(arg scriptfile)" name="keypoint_3d" output="screen">
+  </node>
+  
+</launch>
