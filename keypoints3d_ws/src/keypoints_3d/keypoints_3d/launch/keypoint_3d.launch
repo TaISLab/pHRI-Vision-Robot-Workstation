@@ -8,7 +8,7 @@
   
   <arg name="scriptfile"                       default="keypoint_3d.py"/>
 
-  <node pkg="ros_trt_pose" type="$(arg scriptfile)" name="keypoint_3d" output="screen">
+  <node pkg="keypoints_3d" type="$(arg scriptfile)" name="keypoint_3d" output="screen">
   </node>
   
 </launch>

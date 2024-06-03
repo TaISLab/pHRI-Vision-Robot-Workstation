@@ -12,7 +12,7 @@
 
   <group ns="$(arg namespace)">
 
-    <node pkg="ros_trt_pose" type="keypoint_plotter.py" name="keypoint_plotter" output="screen">
+    <node pkg="keypoints_3d" type="keypoint_plotter.py" name="keypoint_plotter" output="screen">
       <param name="frame_detections_pub_topic_name" value="$(arg frame_detections_pub_topic_name)"/>
       <param name="marker_pub_topic_name"           value="$(arg marker_pub_topic_name)"/>      
     </node>

@@ -8,7 +8,7 @@
   <!-- ************************************************************** -->
 
 
-    <node pkg="ros_trt_pose" type="keypoint_skeleton.py" name="keypoints_skeleton_publisher" output="screen">
+    <node pkg="keypoints_3d" type="keypoint_skeleton.py" name="keypoints_skeleton_publisher" output="screen">
     </node>
     
 </launch>

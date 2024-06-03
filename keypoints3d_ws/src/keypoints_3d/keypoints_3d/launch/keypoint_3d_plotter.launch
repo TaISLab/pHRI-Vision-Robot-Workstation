@@ -10,7 +10,7 @@
   <arg name="use_rviz"                        default="false"/>
   
   
-   <node name="keypoint_3d_plotter" pkg="ros_trt_pose" type="keypoint_3d_plotter.py" output="screen">
+   <node name="keypoint_3d_plotter" pkg="keypoints_3d" type="keypoint_3d_plotter.py" output="screen">
    </node>
    
    <!-- Visualization -->
