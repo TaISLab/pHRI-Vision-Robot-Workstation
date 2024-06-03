@@ -1,5 +1,1 @@
-
-
-https://github.com/NVIDIA-AI-IOT/trt_pose
-https://github.com/NVIDIA-AI-IOT/ros2_trt_pose
-https://github.com/IntelRealSense/realsense-ros/issues/551#issuecomment-489873418
+Repository for estimating 3d keypoints globally referred to the base of a Franka Research 3 manipulator for pHRI applications.
