@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.0.2)
 
-project(ros_trt_pose)
+project(keypoints_3d)
 
 find_package(catkin REQUIRED COMPONENTS
   rospy
