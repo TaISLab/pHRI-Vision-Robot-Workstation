@@ -15,7 +15,7 @@ git clone https://github.com/TaISLab/pHRI-Vision-Robot-Workstation.git
 Build the keypoints3d_ws workspace:
 
 ```
-cd /path/to/pHRI-Vision-Workstation/keypoints3d_ws/
+cd /path/to/pHRI-Vision-Robot-Workstation/keypoints3d_ws/
 catkin_make
 catkin_make install
 ```
