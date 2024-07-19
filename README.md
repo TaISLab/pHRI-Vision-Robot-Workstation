@@ -43,3 +43,7 @@ cd /path_to_bag_files/
 rosbag play <exercise_file.bag>
 ```
 
+
+
+https://github.com/user-attachments/assets/ec00fdfe-d4fe-49ed-88cd-7cc6e9120cf7
+
