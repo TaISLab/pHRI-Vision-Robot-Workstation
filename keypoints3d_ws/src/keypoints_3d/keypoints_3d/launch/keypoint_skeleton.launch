@@ -7,8 +7,14 @@
   <!-- roslaunch PACKAGE_NAME LAUNCHFILE.launch arg1:=val1 arg2:=val2 -->
   <!-- ************************************************************** -->
 
+  <arg name="use_rviz"  default="false"/>
 
-    <node pkg="keypoints_3d" type="keypoint_skeleton.py" name="keypoints_skeleton_publisher" output="screen">
-    </node>
-    
+  <node pkg="keypoints_3d" type="keypoint_skeleton.py" name="keypoints_skeleton_publisher" output="screen"/>
+
+  <!-- Visualization -->
+  <group if="$(arg use_rviz)">
+      <node pkg="rviz" type="rviz" name="rviz" 
+        args="-d $(find keypoints_3d)/config/keypoint_3d_plotter.rviz"/>
+  </group>
+
 </launch>
