@@ -16,7 +16,7 @@
    <!-- Visualization -->
    <group if="$(arg use_rviz)">
        <node pkg="rviz" type="rviz" name="rviz" 
-         args="-d $(find ros_trt_pose)/config/keypoint_3d_plotter.rviz"/>
+         args="-d $(find keypoints_3d)/config/keypoint_3d_plotter.rviz"/>
    </group>
    
 </launch>
