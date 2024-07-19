@@ -29,11 +29,11 @@ https://www.kaggle.com/datasets/jesusgomezdegabriel/human-upper-limb-joints-with
 
 ## Visualize the data on RViz
 
-Launch ```roscore``` and execute on a different terminal:
+Source the workspace and execute a terminal:
 
 ```
 source /path/to/pHRI-Vision-Robot-Workstation/keypoints3d_ws/install/setup.bash
-roslaunch keypoints_3d keypoint_skeleton.launch
+roslaunch keypoints_3d keypoint_skeleton.launch use_rviz:=true
 ```
 
 Play the rosbag file on another terminal:
