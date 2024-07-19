@@ -42,3 +42,4 @@ Play the rosbag file on another terminal:
 cd /path_to_bag_files/
 rosbag play <exercise_file.bag>
 ```
+![Dataset visualization RViz](Pictures/Visualization_example_dataset_V01_1.mp4)
