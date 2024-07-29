@@ -22,14 +22,14 @@ catkin_make install
 
 ## Bag files
 
-Download the bag files from the Kaggle dataset and extract them:
+Download the bag files from the Kaggle dataset:
 
 https://www.kaggle.com/datasets/jesusgomezdegabriel/human-upper-limb-joints-with-vision-only-for-phri/data
 
 
 ## Visualize the data on RViz
 
-Source the workspace and execute a terminal:
+Source the workspace and execute on a terminal:
 
 ```
 source /path/to/pHRI-Vision-Robot-Workstation/keypoints3d_ws/install/setup.bash
