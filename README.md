@@ -49,6 +49,8 @@ https://github.com/user-attachments/assets/ec00fdfe-d4fe-49ed-88cd-7cc6e9120cf7
 
 ## Funding
 
+![MICIU, cofinanciado por la Unión Europea, Agencia Estatal de Investigación](docs/funding-logo.jpg)
+
 MICIU / AEI / FEDER
 
 This work is part of project PID2021-127221OB-I00 (CONCERTO — Control Colaborativo para Interacción física Empática entre RoboT y humanO), funded by MICIU/AEI/10.13039/501100011033/FEDER, UE.
